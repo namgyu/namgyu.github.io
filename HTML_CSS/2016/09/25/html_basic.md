@@ -1,5 +1,5 @@
-HTML 기본
-========
+HTML 잊기 쉬운 기본 정리
+===================
 
 # HTML vs XHTML
 HTML은 닫는 태그를 안해놓아도, 다음으로 블록 요소가 오면 자동으로 닫는다.
@@ -37,3 +37,21 @@ HTML은 닫는 태그를 안해놓아도, 다음으로 블록 요소가 오면 �
 
 ## HTML 5
     <!DOCTYPE html>
+
+# 사용하지 말아야 할 태그
+## font
+* CSS에서 color, font-size, font-family로 지정
+
+## center
+* CSS의 'text-align:center'를 사용
+
+# 사용을 지양하는 태그
+## iframe
+* 검색엔진과 접근성에 있어서 좋지 않다.
+
+## big, small
+* small요소는 HTML5에 남아 있지만, 둘다 CSS에서 font-size로 지정
+
+## i, b, s
+* i : Italic(이텔릭), b : Bold (굵게), s : Strike (취소 선)
+* em(i에 대응), strong(b에 대응), del(s에 대응)으로 사용
