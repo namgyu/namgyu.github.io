@@ -3,6 +3,7 @@
 
 # 웹브라우저 엔진이란 ?
 * 위키피디아에서 웹브라우저 엔진 정의
+
     A web browser engine (sometimes called layout engine or rendering engine) is a program that renders marked up content (such as HTML, XML, image files, etc.) and formatting information (such as CSS, XSL, etc.).
 
 * 다양한 웹브라우저 엔진을 알아둠으로써 크로스 브라우징을 할 수 있다.
