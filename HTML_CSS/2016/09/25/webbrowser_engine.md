@@ -53,12 +53,10 @@
     <p>이 문구는 IE8이 포함되지않은 하위 브라우저, 즉 IE7,6에서 보여지게 됩니다.</p>
     <![endif]-->
 
-* 범위 지정 문구
-    lt(less than) - 미만 (명시된 버전 미 포함)
-    lte(less than or equal to) - 이하 (명시된 버전 포함)
-    gt(greater than) - 초과 (명시된 버전 미 포함)
-    gte
-    greater than or equal to - 이상 (명시된 버전 포함)
+* lt(less than) - 미만 (명시된 버전 미 포함)
+* lte(less than or equal to) - 이하 (명시된 버전 포함)
+* gt(greater than) - 초과 (명시된 버전 미 포함)
+* gte(greater than or equal to) - 이상 (명시된 버전 포함)
 
 ### 메타를 이용한 IE모드
     <meta http-equiv="X-UA-Compatible" content="IE=7" />  <!-- IE 7로 렌더링 -->
