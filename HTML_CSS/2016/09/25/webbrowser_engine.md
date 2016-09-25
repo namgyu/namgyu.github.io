@@ -38,17 +38,19 @@
 ### IE 핵(Hack)
     div {
         color: red;
-        \*color: blue; /\* IE7이하 용 \*/
-        \_color : green; /\* IE6 용 \*/
+        *color: blue; /* IE7이하 용 */
+        _color : green; /* IE6 용 */
     }
 
 ### IE용 주석을 이용한 방법 (Conditional comments)
     <!--[if IE 7]>
     <link href="ie7.css" type="text/css" rel="stylesheet" />
     <![endif]-->
+
     <!--[if IE 6]>
     <p>당신은 구형 IE6을 사용하고 있습니다. 최신 브라우저를 통해 더 나은 웹을 경험해보세요.</p>
     <![endif]-->
+
     <!--[if lt IE 8]>
     <p>이 문구는 IE8이 포함되지않은 하위 브라우저, 즉 IE7,6에서 보여지게 됩니다.</p>
     <![endif]-->
@@ -60,4 +62,4 @@
 
 ### 메타를 이용한 IE모드
     <meta http-equiv="X-UA-Compatible" content="IE=7" />  <!-- IE 7로 렌더링 -->
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" /> <!-- 해당 브라우저가 할 수 있는 가장 최신 IE 버전으로 렌더링 -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />  <!-- 해당 브라우저가 할 수 있는 가장 최신 IE 버전으로 렌더링 -->
