@@ -1,6 +1,3 @@
-.get() VS .eq()
-================
-
 # .get() VS .eq()
 ## .get(index)
 * Retrieve one of the elements matched by the jQuery object. (jQuery API Documentation)
@@ -8,7 +5,7 @@
 
 ## .eq(index)
 * Reduce the set of matched elements to the one at the specified index. (jQuery API Documentation)
-* 특정 index의 DOM element를 jQuery Object로 쌓인(wrapped) 상태로 반환해준다.
+* 특정 index의 DOM element를 **jQuery Object로 쌓인(wrapped) 상태로** 반환해준다.
 
 ## 예시
 ### HTML
