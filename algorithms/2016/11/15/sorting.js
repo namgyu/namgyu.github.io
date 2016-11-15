@@ -1,0 +1,93 @@
+var sorting = (function() {
+    var array = [];
+
+    var _init = function(size) {
+        _initArray(size);
+    };
+    
+    var _initArray = function(size) {
+        array = [];
+
+        for (var i=size; i > 0; i--) {
+            array.push(i);
+        }
+    };
+
+    var _logger = function() {
+        console.log(array.join());
+    };
+
+    var _swap = function(index1, index2) {
+        var aux = array[index1];
+        array[index1] = array[index2];
+        array[index2] = aux;
+    };
+
+    var _bubble = function() {
+        var length = array.length;
+
+        for (var i=0; i < length; i++) {
+            for (var j=0; j < length-1; j++) {
+                _logger();
+
+                if (array[j] > array[j+1]) {
+                    _swap(j, j+1);
+                }
+            }
+        }
+    };
+
+    var _modifiedBubble = function() {
+        var length = array.length;
+
+        for (var i=0; i < length; i++) {
+            for (var j=0; j < length-1-i; j++) {  // 바깥루프가 돈 만큼 (이미 정렬된 만큼) 안쪽 루프에서 횟수 차감
+                _logger();
+
+                if (array[j] > array[j+1]) {
+                    _swap(j, j+1);
+                }
+            }
+        }
+    };
+
+    var _selection = function() {
+        var length = array.length,
+            indexMin;
+
+        for (var i=0; i < length-1; i++) {
+            _logger();
+            indexMin = i;
+
+            for (var j=i; j < length; j++) {
+                if (array[indexMin] > array[j]) {
+                    indexMin = j;
+                }
+            }
+
+            if (i !== indexMin) {
+                _swap(i, indexMin);
+            }
+        }
+    };
+
+    var _insertion = function() {
+        var length = array.length;
+
+        for (var i=1; i<length; i++) {
+            for (var j=i; j>0 && array[j-1]>array[j]; j--) {
+                _logger();
+                _swap(j-1, j);
+            }
+        }
+
+    };
+
+    return {
+        init : _init,
+        bubble : _bubble,
+        modifiedBubble : _modifiedBubble,
+        selection : _selection,
+        insertion : _insertion
+    };
+})();
