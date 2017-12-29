@@ -6,7 +6,7 @@
 | ---- | ---- |
 |[함수](https://github.com/pinkstarfish/pinkstarfish.github.io/blob/master/posts/javascript/2017/12/20/basic-function.md)|2017.12.20|
 |[고차함수](https://github.com/pinkstarfish/pinkstarfish.github.io/blob/master/posts/javascript/2017/12/20/higher-order-function.md)|2017.12.20|
-|[객체](https://github.com/pinkstarfish/pinkstarfish.github.io/blob/master/posts/javascript/2017/12/26/basic-object.md)|2017.12.16|
+|[객체](https://github.com/pinkstarfish/pinkstarfish.github.io/blob/master/posts/javascript/2017/12/26/basic-object.md)|2017.12.26|
 
 <br>
 
