@@ -74,7 +74,7 @@ var a = new Foo();
 a.consturctor === Foo; //true
 ```
 
-![prototype 설명 2](https://pinkstarfish.github.io/img/javascript/prototype.2.png) 
+![prototype 설명 2](https://pinkstarfish.github.io/img/javascript/prototype.2.png)
 
 * Foo.prototype 객체에는 기본적으로 공용 프로퍼티 constructor가 세팅되는데, 이는 객체 생성과 관련된 함수(Foo)를 다시 참조하기 위한 레퍼런스다.
 
