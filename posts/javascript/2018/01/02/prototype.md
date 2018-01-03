@@ -12,22 +12,7 @@ var myObject = Object.create(anotherObject);
 myObject.a // 2;
 ```
 
-|Object| |
-| ---- | ---- |
-| [[prototype]] | null |
-
-<br>
-
-|anotherObject||  
-| ---- | ---- |
-| [[prototype]] | * |       
-|       a       | 2 |
-
-<br>
-
-|myObject||
-| ---- | ---- |
-| [[prototype]] | * |       
+![prototype 설명 1](https://pinkstarfish.github.io/img/javascript/prototype.1.png)
 
 1. myObject는 anotherObject와 [[Prototype]]이 링크됐다.
 1. myObject.a란 프로퍼티는 없지만 anoterhObject에서 2라는 값을 대신 찾아 프로퍼티 접근의 결과값으로 반환한다.
