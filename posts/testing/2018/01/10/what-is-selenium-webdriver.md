@@ -35,7 +35,17 @@
 > 여러 서버에서 동시에 여러 테스트를 실행하여 여러 브라우저 또는 운영 체제를 테스트하는 데 소요되는 시간을 줄여서 Selenium Remote Control을 다른 수준으로 끌어 올립니다.
 
 ![Selenium Grid 구성](http://docs.seleniumhq.org/selenium-grid.png)
-* Selenium 2.0(아래에 설명할 Selenium Webdriver를 일컫는다)이 나오면서 Selenium Server에 Grid 기능이 추가되었다
+* Selenium 1.0에서는 Selenium RC Server와 별도의 프로그램으로 Selenium Grid가 있었다 (Selenium Grid 1)
+* Selenium 2.0(아래에 설명할 Selenium Webdriver를 일컫는다)이 나오면서 Selenium RC Server와 Selenium Grid가 병합되었다 (Selenium Grid 2)
+    * [\[참고\]](https://www.guru99.com/introduction-to-selenium-grid.html) Grid 1 vs Grid 2
+
+    |**Grid 1**|**Grid 2**|
+    |------|------|
+    |Selenium Grid 1 has its own remote control that is different from the Selenium RC server. They are two different programs.|Selenium Grid 2 is now bundled with the Selenium Server jar file|
+    |You need to install and configure Apache Ant first before you can use Grid 1.|You do not need to install Apache Ant in Grid 2.|
+    |Can only support Selenium RC commands/scripts.|Can support both Selenium RC and WebDriver scripts.|
+    |You can only automate one browser per remote control.|One remote control can automate up to 5 browsers.|
+
 * 여러 컴퓨터<sup>machine</sup>에 배포하여 병렬 실행한다
 * 중앙 지점(hub)에서 여러 환경을 관리할 수 ​​있으므로 방대한 브라우저/OS 조합(node)에 대한 테스트를 쉽게 실행할 수 있다
 * 가상 인프라를 활용할 수 있도록 사용자 지정 후크(~~뭘 말하는걸까~~)를 구현할 수 있으므로 그리드의 유지 관리 시간을 최소화 할 수 있다
@@ -44,7 +54,8 @@
 ## Selenium Webdriver
 > 로컬 또는 원격 시스템에서 기본적으로 브라우저를 구동 할 수 있습니다.
 
-* Selenium 1.0 + [WebDriver](https://github.com/w3c/webdriver) = Selenium 2.0 (일반적으로 **'Selenium Webdriver'**라고 부른다)
+* Selenium 1.0 + [WebDriver](https://github.com/w3c/webdriver) = Selenium 2.0 
+* Webdriver의 통합으로 인해 일반적으로 **'Selenium Webdriver'**라고 부르며 Grid가 Selenium RC Server에 병합을 기준으로 보고 **'Selenium Grid 2.0'**이라고 부르기도 한다
 * Selenium RC와 동일한 역할을 하며 Selenium RC API의 일부 제한 사항을 해결하면서, 더 간단하고 간결한 인터페이스로 되어있다
 * Selenium Webdriver는 Selenium RC의 [동일 출처 정책](http://www.seleniumhq.org/docs/05_selenium_rc.jsp#the-same-origin-policy)(Same-origin Policy) 한계를 극복하였다
 * vs. Selenium RC
