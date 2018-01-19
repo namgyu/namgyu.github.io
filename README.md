@@ -2,6 +2,7 @@
 ======================
 
 ## JAVASCRIPT
+* 2018.01.14 - [상속 in Class](https://github.com/pinkstarfish/pinkstarfish.github.io/blob/master/posts/javascript/2018/01/14/inheritance-in-class.md)
 * 2018.01.09 - [상속](https://github.com/pinkstarfish/pinkstarfish.github.io/blob/master/posts/javascript/2018/01/09/inheritance.md)
 * 2018.01.02 - [프로토타입](https://github.com/pinkstarfish/pinkstarfish.github.io/blob/master/posts/javascript/2018/01/02/prototype.md)
 * 2017.12.26 - [객체](https://github.com/pinkstarfish/pinkstarfish.github.io/blob/master/posts/javascript/2017/12/26/basic-object.md)
@@ -44,5 +45,6 @@
 <br>
 
 ## TESTING
+* 2018.01.19 - [Seleinum Webdriver 예제](https://github.com/pinkstarfish/pinkstarfish.github.io/blob/master/posts/testing/2018/01/19/how-to-use-selenium-webdriver.md)
 * 2018.01.10 - [Seleinum Webdriver](https://github.com/pinkstarfish/pinkstarfish.github.io/blob/master/posts/testing/2018/01/10/what-is-selenium-webdriver.md)
 * 2018.01.04 - [Karma](https://github.com/pinkstarfish/pinkstarfish.github.io/blob/master/posts/testing/2018/01/04/what-is-karma.md)
