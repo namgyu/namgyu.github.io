@@ -53,7 +53,7 @@ function Foo() {
     // something
 }
 
-Foo.prototype; // 객체 생성됨
+Foo.prototype; // {}
 
 var a = new Foo();
 Object.getPrototypeOf(a) === Foo.prototype; // true
