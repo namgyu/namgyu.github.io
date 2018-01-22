@@ -113,11 +113,11 @@ $ mvn test
 ```
 * 성공 시 콘솔 화면
 
-![selenium-with-java console 1](https://pinkstarfish.github.io/img/testing/selenium-with-java.1.png)
+![selenium-with-java console 1](/img/testing/selenium-with-java.1.png)
 
 * 실패 시 콘솔 화면
 
-![selenium-with-java console 2](https://pinkstarfish.github.io/img/testing/selenium-with-java.2.png)
+![selenium-with-java console 2](/img/testing/selenium-with-java.2.png)
 
 
 ## Node.js
@@ -169,9 +169,9 @@ $ node seleniumTest.js
 ```
 * 성공 시 콘솔 화면
 
-![selenium-with-node console 1](https://pinkstarfish.github.io/img/testing/selenium-with-node.1.png)
+![selenium-with-node console 1](/img/testing/selenium-with-node.1.png)
 
 * 실패 시 콘솔 화면
 
-![selenium-with-node console 2](https://pinkstarfish.github.io/img/testing/selenium-with-node.2.png)
+![selenium-with-node console 2](/img/testing/selenium-with-node.2.png)
 
