@@ -1,0 +1,28 @@
+# Site settings
+title:          끄적끄적
+description:    "study"
+baseurl:        "/blog"
+url:            "https://pinkstarfish.github.io"
+
+# Author
+author:
+  name:         Namgyu Kuk
+
+# Build settings
+markdown:       kramdown
+
+# Assets
+sass:
+  sass_dir:     _sass
+  style:        compressed
+
+# Gems
+plugins:
+  - jekyll-paginate
+
+# Permalinks
+permalink:      /:year-:month-:day/:title
+paginate:       5
+
+# Theme
+theme: tale
