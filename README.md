@@ -2,6 +2,7 @@
 ======================
 
 ## JAVASCRIPT
+* 2018.01.23 - [비동기](https://github.com/pinkstarfish/pinkstarfish.github.io/blob/master/posts/javascript/2018/01/23/async.md)
 * 2018.01.14 - [상속 in Class](https://github.com/pinkstarfish/pinkstarfish.github.io/blob/master/posts/javascript/2018/01/14/inheritance-in-class.md)
 * 2018.01.09 - [상속](https://github.com/pinkstarfish/pinkstarfish.github.io/blob/master/posts/javascript/2018/01/09/inheritance.md)
 * 2018.01.02 - [프로토타입](https://github.com/pinkstarfish/pinkstarfish.github.io/blob/master/posts/javascript/2018/01/02/prototype.md)
