@@ -1,4 +1,4 @@
 끄적끄적
 ======================
 
-[pinkstarfish.github.io](https://pinkstarfish.github.io/blog/)
+[pinkstarfish.github.io](https://pinkstarfish.github.io)
