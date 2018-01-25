@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Seleinum Webdriver 예제"
-date:   2018-01-10
+date:   2018-01-19
 categories: testing
 ---
 
