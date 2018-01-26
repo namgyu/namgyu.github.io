@@ -1,0 +1,19 @@
+{
+  "name": "pinkstarfish.github.io",
+  "version": "1.0.0",
+  "description": "blog",
+  "main": "index.js",
+  "scripts": {
+    "start": "bundle exec jekyll serve"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pinkstarfish/pinkstarfish.github.io.git"
+  },
+  "author": "Namgyu Kuk",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pinkstarfish/pinkstarfish.github.io/issues"
+  },
+  "homepage": "https://github.com/pinkstarfish/pinkstarfish.github.io#readme"
+}
