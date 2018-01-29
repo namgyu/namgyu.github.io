@@ -43,41 +43,8 @@ $ karma start
 ## karma init
 * 다음과 같이 karma init을 통해 문답형으로 간단히 설정 파일을 생성할 수 있다.
 
-```
-$ karma init karma.conf.js
+![karma init](/assets/img/testing/karma-init.png)
 
-Which testing framework do you want to use?
-Press tab to list possible options. Enter to move to the next question.
-> jasmine
-
-Do you want to use Require.js?
-This will add Require.js plugin.
-Press tab to list possible options. Enter to move to the next question.
-> no
-
-Do you want to capture a browser automatically?
-Press tab to list possible options. Enter empty string to move to the next question.
-> Chrome
-> Firefox
->
-
-What is the location of your source and test files?
-You can use glob patterns, eg. "js/*.js" or "test/**/*Spec.js".
-Press Enter to move to the next question.
-> *.js
-> test/**/*.js
->
-
-Should any of the files included by the previous patterns be excluded?
-You can use glob patterns, eg. "**/*.swp".
-Press Enter to move to the next question.
->
-
-Do you want Karma to watch all the files and run the tests on change?
-Press tab to list possible options.
-> yes
-
-```
 ## Configuration File
 * karma init을 통해 문답형으로 간단히 세팅이 가능하나 각각 어떻게 설정파일에 들어가는지 알아보겠다.
 * karma.conf.js에 세팅한 설정 값을 기반으로 실행하게 된다.
@@ -88,6 +55,7 @@ Press tab to list possible options.
         * ./.config/karma.conf.js
         * ./.config/karma.conf.coffee
         * ./.config/karma.conf.ts
+* 자세한 설명은 [여기](https://karma-runner.github.io/2.0/config/configuration-file.html) 참고
 
 ### port
     * Karma는 자체적으로 웹서버를 띄운다. (일반적으로, http://localhost:9876/)
