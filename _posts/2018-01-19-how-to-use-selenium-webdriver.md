@@ -11,7 +11,7 @@ categories: testing
 * Java
 * Node.js
 
-## Vendor별 Webdriver
+## Vendor별 driver
 
 |Browser|Component|
 |-------|---------|
@@ -21,7 +21,7 @@ categories: testing
 |Firefox|[geckodriver(.exe)](https://github.com/mozilla/geckodriver/releases/)|
 |Safari|[safaridriver](https://developer.apple.com/library/content/releasenotes/General/WhatsNewInSafari/Articles/Safari_10_0.html#//apple_ref/doc/uid/TP40014305-CH11-DontLinkElementID_28)|
 
-* 테스팅할 브라우저의 webdriver는 위 표에서 각각 다운로드 받으면 된다
+* 테스팅할 브라우저의 driver는 위 표에서 각각 다운로드 받으면 된다
 * safaridriver는 OS X El Capitan 및 macOS Sierra 용 Safari 10과 함께 제공되기 때문에 테스트하기 전에 Safari 10의 개발 메뉴에서 원격 자동화를 활성화하면 사용 가능하다
 
 ## 시나리오
@@ -34,7 +34,7 @@ categories: testing
 1. 열려있는 Chrome을 닫는다
 
 ## Java
-* Chrome 브라우저에서 테스팅을 하기 위해서 webdriver/chrome경로에 chromedriver를 다운로드 받는다 (경로는 적절한 곳에 받으면 된다)
+* Chrome 브라우저에서 테스팅을 하기 위해서 chromedriver를 다운로드 받는다 (이 예제에서는 webdriver/chrome경로에 다운로드 받았다)
 * 이 예제에서는 Dependency 관리를 편하게 하기 위해 maven을 사용하였고, test는 JUnit을 사용하였다
 * 다음과 같이 pom.xml에 선언하여 selenium-webdriver를 받는다
 
@@ -146,31 +146,30 @@ const { Builder, By, Key, until } = require('selenium-webdriver');
 // 1) Chrome을 연다
 const driver = new Builder().forBrowser('chrome').build();
 
-try {
-    // 2) http://www.google.com 에 접속한다
-    driver.get('http://www.google.com');
+// 2) http://www.google.com 에 접속한다
+driver.get('http://www.google.com');
 
-    driver.getTitle().then(title => {
-        console.log(`[Prev] Page title is: ${title}`);
-    });
+driver.getTitle().then(title => {
+    console.log(`[Prev] Page title is: ${title}`);
+});
 
-    // 3) 검색창을 찾는다
-    const element = driver.findElement(By.name('q'));   // driver.findElement(By.name('q')).sendKeys('webdriver', Key.RETURN); 와 동일
-    // 4) 검색창에 'webdriver'를 입력한다
-    element.sendKeys('webdriver');
-    // 5) 입력한 검색어를 제출(submit)한다
-    element.submit();
+// 3) 검색창을 찾는다
+const element = driver.findElement(By.name('q'));   // driver.findElement(By.name('q')).sendKeys('webdriver', Key.RETURN); 와 동일
+// 4) 검색창에 'webdriver'를 입력한다
+element.sendKeys('webdriver');
+// 5) 입력한 검색어를 제출(submit)한다
+element.submit();
 
-    driver.getTitle().then(title => {
-        console.log(`[Next] Page title is: ${title}`);
-    });
+driver.getTitle().then(title => {
+    console.log(`[Next] Page title is: ${title}`);
+});
 
-    // 6) 10초 동안 title에 검색어인 'webdriver'로 시작하는지 검사한다
-    driver.wait(until.titleMatches(/^asdf/g), 10000);
-} finally {
-    // 7) 열려있는 Chrome을 닫는다
-    driver.quit();
-}
+// 6) 10초 동안 title에 검색어인 'webdriver'로 시작하는지 검사한다
+driver.wait(until.titleMatches(/^asdf/g), 10000);
+
+// 7) 열려있는 Chrome을 닫는다
+driver.quit();
+
 ```
 
 * 다음과 같이 실행을 하면 Chrome 브라우저를 띄워 위에 시나리오대로 동작한다.
