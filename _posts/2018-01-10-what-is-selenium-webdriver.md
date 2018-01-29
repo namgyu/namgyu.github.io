@@ -62,7 +62,7 @@ categories: testing
 ## Selenium Webdriver
 > 로컬 또는 원격 시스템에서 기본적으로 브라우저를 구동 할 수 있습니다.
 
-* Selenium 1.0 + WebDriver = Selenium 2.0
+* Selenium 1.0(=Selenium RC) + Selenium Grid + WebDriver = Selenium 2.0
 * [WebDriver](https://github.com/w3c/webdriver)란?
     * User Agent의 제어<sup>control</sup>와 인트로스펙션<sup>introspection</sup>(객체의 메타데이터를 조사하는 과정)을 가능케하는 원격 제어 인터페이스<sup>remote control interface</sup>
 * Webdriver의 통합으로 인해 일반적으로 **Selenium Webdriver**라고 부르며 Grid가 Selenium RC Server에 병합을 기준으로 보고 **Selenium Grid 2.0**이라고 부르기도 한다
