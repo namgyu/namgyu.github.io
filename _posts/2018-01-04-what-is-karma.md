@@ -6,6 +6,9 @@ categories: testing
 ---
 
 ## Karma란
+
+<img src="https://karma-runner.github.io/assets/img/banner.png" width="144px">
+
 * [Karma](https://github.com/karma-runner/karma)에 따르면 다음과 같이 설명을 한다.
 
     A simple tool that allows you to execute JavaScript code in multiple
