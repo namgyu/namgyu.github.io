@@ -1,5 +1,5 @@
 {
-  "name": "pinkstarfish.github.io",
+  "name": "namgyu.github.io",
   "version": "1.0.0",
   "description": "blog",
   "main": "index.js",
@@ -8,12 +8,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/pinkstarfish/pinkstarfish.github.io.git"
+    "url": "git+https://github.com/namgyu/namgyu.github.io.git"
   },
   "author": "Namgyu Kuk",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/pinkstarfish/pinkstarfish.github.io/issues"
+    "url": "https://github.com/namgyu/namgyu.github.io/issues"
   },
-  "homepage": "https://github.com/pinkstarfish/pinkstarfish.github.io#readme"
+  "homepage": "https://github.com/namgyu/namgyu.github.io#readme"
 }

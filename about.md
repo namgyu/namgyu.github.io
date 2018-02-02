@@ -1,12 +1,12 @@
 ---
-layout: post
-title: "About"
-author: "Namgyu"
-permalink: /about/
+layout: page
+title: About
+description: This page describes monochrome.
 ---
+## About
 
-```javascript
-if (isEmptyAboutPage) {
-    return 'YES';
-}
+```javascript 
+if (isEmptyAboutPage) { 
+    return 'YES'; 
+} 
 ```
