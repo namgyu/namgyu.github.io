@@ -1,7 +1,7 @@
 끄적끄적
 ======================
 
-[pinkstarfish.github.io](https://pinkstarfish.github.io)
+[namgyu.github.io](https://namgyu.github.io)
  
 ## JAVASCRIPT
 * 2018.01.23 - [비동기](https://github.com/pinkstarfish/pinkstarfish.github.io/blob/master/_posts/2018-01-23-async.md)
