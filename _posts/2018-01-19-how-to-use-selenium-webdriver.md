@@ -5,7 +5,7 @@ date:   2018-01-19
 categories: testing
 ---
 
-> [지난 포스팅](https://github.com/pinkstarfish/pinkstarfish.github.io/blob/master/posts/testing/2018/01/10/what-is-selenium-webdriver.md)에서 Selenium 자체에 대한 소개를 하였고, 이번 포스팅에서는 실제로 어떻게 사용할 수 있는지 설명하겠다
+> [지난 포스팅](https://namgyu.github.io/what-is-selenium-webdriver)에서 Selenium 자체에 대한 소개를 하였고, 이번 포스팅에서는 실제로 어떻게 사용할 수 있는지 설명하겠다
 
 ## 테스트 환경
 * Java
